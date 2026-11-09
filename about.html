@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff8fc">
+    <meta name="description" content="Meet Turkan Baghirzade: a computer science student, builder, and future AI tools creator.">
+    <title>My Journey | Turkan Baghirzade</title>
+    <link rel="icon" href="assets/fairy-avatar.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=7">
+    <script src="script.js" defer></script>
+    <script src="game.js?v=5" defer></script>
+  </head>
+  <body data-stage="about" data-next="projects.html">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Turkan Baghirzade, home">
+        <span class="wordmark-star" aria-hidden="true">✦</span>
+        <span>Turkan<span class="wordmark-dot">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">My journey</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+      <a class="github-link" href="https://github.com/TurkanBaghirzade/TurkanBaghirzade.github.io" target="_blank" rel="noopener noreferrer">
+        <span aria-hidden="true">⌘</span> GitHub
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="game-stage portal-stage" aria-labelledby="stage-title">
+        <div class="game-hud">
+          <span class="world-badge">WORLD 02 <span aria-hidden="true">✦</span></span>
+          <span class="hud-title">The starlight crossing</span>
+          <span class="hud-progress">MY JOURNEY <span aria-hidden="true">•</span> 02 / 03</span>
+        </div>
+        <div class="stage-copy">
+          <p class="stage-kicker">A little learning, a lot of becoming</p>
+          <h1 id="stage-title">This is my story.<br><span>Come on in.</span></h1>
+          <p>Step through the starlight gate to see where I’m learning and what I’m dreaming up.</p>
+        </div>
+        <a class="portal-door" href="projects.html" data-game-link aria-label="Open the magic portal and enter the projects world">
+          <span class="portal-ring" aria-hidden="true"></span>
+          <span class="portal-label">OPEN THE PORTAL <span aria-hidden="true">↗</span></span>
+        </a>
+        <div class="fairy-player" data-player role="img" aria-label="Turkan’s sparkly fairy character from her concept art">
+          <img src="assets/turkan-fairy.png" alt="">
+          <span class="player-name">TURKAN</span>
+        </div>
+        <div class="stage-controls" aria-label="Fairy movement controls">
+          <button type="button" class="move-button" data-move="left" aria-label="Move fairy left">←</button>
+          <button type="button" class="move-button" data-move="right" aria-label="Move fairy right">→</button>
+        </div>
+        <p class="controls-hint" id="controls-hint">Move with ← → or A / D · Click the glowing portal to visit projects</p>
+        <a class="edge-hint" href="projects.html" data-game-link>Next world <span aria-hidden="true">→</span></a>
+        <p class="stage-live" aria-live="polite"></p>
+      </section>
+      <section class="journey section-wrap page-section" id="about" aria-labelledby="journey-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-line"></span> My journey</p>
+          <h1 class="page-title" id="journey-title">A little learning,<br><span class="gradient-text">a lot of becoming.</span></h1>
+          <p class="section-lead">No final form yet—and that’s the fun part. Here’s the path I’m building one quest at a time.</p>
+        </div>
+        <div class="journey-layout">
+          <div class="journey-story">
+            <article class="story-card about-photo-card">
+              <div class="identity-images" aria-label="Turkan in real life and as a fairy">
+                <div class="real-portrait">
+                <img src="picture/Turkan.jpeg" alt="Turkan outdoors, wearing a yellow top">
+                </div>
+                <img class="fairy-reference" src="picture/personality.jpeg" alt="Turkan’s sparkly fairy character concept">
+              </div>
+              <div>
+                <p class="card-kicker">The person behind the sparkle</p>
+                <h2>Me, in the real world</h2>
+                <p>The fairy is my playful, star-powered alter ego. The photo is me—Turkan—bringing a little of that bright, creative energy into real life.</p>
+              </div>
+            </article>
+            <article class="story-card">
+              <span class="story-icon" aria-hidden="true">✧</span>
+              <div>
+                <p class="card-kicker">Where I’m learning</p>
+                <h2>Two classrooms, one curious mind</h2>
+                <p>I’m a first-year student at ADA University and I’m also studying computer science through Holberton School’s nine-month program. I’m building my foundations through practice, projects, and collaboration.</p>
+              </div>
+            </article>
+            <article class="story-card">
+              <span class="story-icon story-icon-peach" aria-hidden="true">⌘</span>
+              <div>
+                <p class="card-kicker">What I’m exploring</p>
+                <h2>From first lines to useful tools</h2>
+                <p>I work with C, Python, Shell, HTML, and CSS, and use Git and GitHub to keep track of the journey. I’m especially interested in AI-powered tools and thoughtful web experiences.</p>
+              </div>
+            </article>
+            <article class="story-card">
+              <span class="story-icon story-icon-lilac" aria-hidden="true">♡</span>
+              <div>
+                <p class="card-kicker">Outside the code</p>
+                <h2>Movement, doodles, fresh ideas</h2>
+                <p>Badminton gives me a reason to move; drawing gives my ideas somewhere to land. I bring a little of both energy and imagination into the things I build.</p>
+              </div>
+            </article>
+          </div>
+          <aside class="quest-panel" aria-labelledby="quest-title">
+            <div class="quest-topline"><span class="quest-emblem" aria-hidden="true">✦</span><span>YOUR ADVENTURE LOG</span></div>
+            <h2 id="quest-title">Collect your stardust</h2>
+            <p class="quest-instructions">Tap a quest as you explore. Your progress stays on this device.</p>
+            <div class="level-row"><span>LEVEL <strong id="level-number">01</strong></span><span><strong id="xp-count">0</strong> / 30 XP</span></div>
+            <div class="xp-track" role="progressbar" aria-label="Stardust progress to next level" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0" id="xp-progress"><span id="xp-fill"></span></div>
+            <div class="quest-list">
+              <button class="quest-item" type="button" data-quest="about" data-xp="10" aria-pressed="false">
+                <span class="quest-check" aria-hidden="true">✓</span><span><strong>Meet the maker</strong><small>Read my journey</small></span><span class="quest-xp">+10</span>
+              </button>
+              <button class="quest-item" type="button" data-quest="projects" data-xp="10" aria-pressed="false">
+                <span class="quest-check" aria-hidden="true">✓</span><span><strong>Explore the workbench</strong><small>Browse my projects</small></span><span class="quest-xp">+10</span>
+              </button>
+              <button class="quest-item" type="button" data-quest="github" data-xp="10" aria-pressed="false">
+                <span class="quest-check" aria-hidden="true">✓</span><span><strong>Visit the code garden</strong><small>Explore my project repo</small></span><span class="quest-xp">+10</span>
+              </button>
+            </div>
+            <p class="quest-footnote" id="quest-message" aria-live="polite">Every small step counts. You’ve got this!</p>
+            <a class="quest-github-link" href="https://github.com/TurkanBaghirzade/TurkanBaghirzade.github.io" target="_blank" rel="noopener noreferrer">Open my GitHub ↗</a>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="wordmark footer-mark" href="index.html"><span class="wordmark-star" aria-hidden="true">✦</span><span>Turkan<span class="wordmark-dot">.</span></span></a>
+        <p>Still learning. Still making. <span aria-hidden="true">✧</span></p>
+        <a class="footer-github" href="https://github.com/TurkanBaghirzade/TurkanBaghirzade.github.io" target="_blank" rel="noopener noreferrer">Find me on GitHub ↗</a>
+      </div>
+      <p class="copyright">© <span id="current-year">2026</span> Turkan Baghirzade · Made with curiosity and a little stardust.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" role="img" aria-labelledby="title description">
+  <title id="title">Original starlight fairy avatar</title>
+  <desc id="description">A cheerful illustrated person with warm brown hair, a pink starry outfit, and translucent lilac wings.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8e7f5"/>
+      <stop offset="1" stop-color="#fff0df"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#dcafe8" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#603f58"/>
+      <stop offset="1" stop-color="#382c48"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ee76ac"/>
+      <stop offset="1" stop-color="#bd6bca"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#795b7e" flood-opacity=".15"/>
+    </filter>
+  </defs>
+  <rect width="420" height="480" rx="28" fill="url(#background)"/>
+  <circle cx="210" cy="216" r="152" fill="#fff" opacity=".24"/>
+  <g fill="#fff" opacity=".9">
+    <path d="m75 102 4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="m330 144 3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+    <path d="m92 241 3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+    <path d="m330 287 4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+  </g>
+  <g filter="url(#soft-shadow)">
+    <path d="M183 227C151 213 110 190 96 151c-13-36 8-53 34-40 29 15 46 58 61 103z" fill="url(#wing)" stroke="#d19bd9" stroke-width="3"/>
+    <path d="M181 235c-41 0-82-9-104-34-21-24-10-45 18-40 35 6 65 34 94 63z" fill="url(#wing)" stroke="#d19bd9" stroke-width="3"/>
+    <path d="M237 227c32-14 73-37 87-76 13-36-8-53-34-40-29 15-46 58-61 103z" fill="url(#wing)" stroke="#d19bd9" stroke-width="3"/>
+    <path d="M239 235c41 0 82-9 104-34 21-24 10-45-18-40-35 6-65 34-94 63z" fill="url(#wing)" stroke="#d19bd9" stroke-width="3"/>
+    <path d="M172 322c-3 53-23 89-38 118h152c-18-31-34-70-38-118z" fill="#f3b2cc" stroke="#ad719f" stroke-width="3"/>
+    <path d="M164 321c-40 14-64 50-74 103h242c-9-53-34-89-74-103z" fill="url(#dress)" stroke="#ad719f" stroke-width="3"/>
+    <path d="m195 342 15-17 15 17-15 19z" fill="#fff0bb" stroke="#b65c9d" stroke-width="2"/>
+    <path d="M210 115c-41 0-64 29-64 70v40c0 49 29 77 64 77s64-28 64-77v-40c0-41-23-70-64-70z" fill="#d99678" stroke="#67455c" stroke-width="3"/>
+    <path d="M145 221c-13-48-7-103 29-123 33-18 83-6 101 29 12 23 11 59 1 89-3-30-10-51-28-67-11 21-43 35-98 37z" fill="url(#hair)" stroke="#49334f" stroke-width="3"/>
+    <path d="M151 206c-10 52-5 112 23 133-4-32-3-55 1-75zM266 203c12 50 7 110-22 136 5-34 4-53 0-77z" fill="#49334f"/>
+    <path d="M186 221c8-6 17-6 24 0M229 221c8-6 17-6 24 0" fill="none" stroke="#51364a" stroke-linecap="round" stroke-width="4"/>
+    <circle cx="198" cy="231" r="3" fill="#392c40"/><circle cx="239" cy="231" r="3" fill="#392c40"/>
+    <path d="M205 252c4 4 10 4 14 0" fill="none" stroke="#9c5267" stroke-linecap="round" stroke-width="3"/>
+    <path d="M170 264c8 4 15 5 23 4M227 268c8 1 15 0 23-4" fill="none" stroke="#dc7f87" stroke-linecap="round" stroke-width="7" opacity=".55"/>
+    <path d="M176 308c11 12 22 17 34 17s23-5 34-17l6 18c-12 17-25 24-40 24s-28-7-40-24z" fill="#fff0e5" stroke="#ad719f" stroke-width="2"/>
+  </g>
+  <g fill="#fff4b5">
+    <path d="m133 169 4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+    <path d="m288 182 3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+    <path d="m206 387 3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+  </g>
+  <g fill="none" stroke="#d49bd8" stroke-linecap="round" stroke-width="2">
+    <path d="M133 174c20 13 34 30 48 53M287 186c-17 12-32 26-46 45M111 206c20 4 40 14 61 29M309 206c-20 4-40 14-61 29"/>
+  </g>
+</svg>
