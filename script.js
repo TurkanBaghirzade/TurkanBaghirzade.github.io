@@ -78,3 +78,51 @@ if (questItems.length > 0) {
 }
 
 if (currentYear) currentYear.textContent = String(new Date().getFullYear());
+
+const welcomeOverlay = document.querySelector("[data-welcome-overlay]");
+const choiceKey = "turkan-portfolio-view";
+
+if (welcomeOverlay) {
+  let savedChoice = "";
+  try {
+    savedChoice = localStorage.getItem(choiceKey) || "";
+  } catch (error) {
+    console.warn("Could not read the saved portfolio view.", error);
+  }
+
+  if (savedChoice === "game") {
+    window.location.replace("game.html");
+  } else if (savedChoice !== "classic") {
+    welcomeOverlay.hidden = false;
+    welcomeOverlay.querySelector('[data-choice="game"]').focus();
+  }
+
+  welcomeOverlay.querySelector('[data-choice="game"]').addEventListener("click", () => {
+    try { localStorage.setItem(choiceKey, "game"); } catch (error) {
+      console.warn("Could not save the selected portfolio view.", error);
+    }
+  });
+
+  welcomeOverlay.querySelector('[data-choice="classic"]').addEventListener("click", () => {
+    try { localStorage.setItem(choiceKey, "classic"); } catch (error) {
+      console.warn("Could not save the selected portfolio view.", error);
+    }
+    welcomeOverlay.hidden = true;
+  });
+}
+
+document.querySelectorAll(".classic-link").forEach((link) => {
+  link.addEventListener("click", () => {
+    try { localStorage.setItem(choiceKey, "classic"); } catch (error) {
+      console.warn("Could not save the selected portfolio view.", error);
+    }
+  });
+});
+
+document.querySelectorAll(".play-game-button").forEach((link) => {
+  link.addEventListener("click", () => {
+    try { localStorage.setItem(choiceKey, "game"); } catch (error) {
+      console.warn("Could not save the selected portfolio view.", error);
+    }
+  });
+});

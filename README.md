@@ -4,10 +4,11 @@ A personal portfolio for sharing my studies, interests, and project work. The si
 
 ## Pages and features
 
-- **Home (`index.html`):** a playable opening world, profile photo, and keyboard/touch controls.
+- **Home (`index.html`):** a normal, scrollable portfolio homepage with a first visit choice between the classic site and the game.
+- **Game (`game.html`):** the full-screen fairy game entry. The Classic view link returns to the normal homepage.
 - **My journey (`about.html`):** the portal world, real portrait, fairy concept, education, interests, and interactive quest tracker.
 - **Projects (`projects.html`):** the workshop world and hackathon/coursework project cards, with my role or contribution where available.
-- **2D game interactions:** move the fairy with arrow keys, A/D, or on-screen controls; reach the right edge to transition worlds, or use ordinary links. Pointer movement across the page creates a short-lived magic trail.
+- **Exploration:** click or drag on the ground to walk, or use arrow keys/WASD. Open the glowing gate by clicking, pressing E nearby, or scrolling; explore the library, interact with its books, blackboard, trophy shelf, and sketchbook, then use its exit to return outside.
 - **Responsive layout:** navigation and content adapt to smaller screens, with reduced-motion support.
 
 The quest tracker saves progress in the visitor's browser using `localStorage`. The site does not use a server, collect form data, or display a public email address.
@@ -17,16 +18,20 @@ The quest tracker saves progress in the visitor's browser using `localStorage`. 
 ```text
 .
 ├── index.html
+├── game.html
 ├── about.html
 ├── projects.html
 ├── styles.css
 ├── script.js
 ├── game.js
+├── js/
+│   └── data.js
 ├── picture/
 │   ├── Turkan.jpeg
 │   ├── background.jpeg
 │   ├── contact.jpeg
 │   ├── home.jpeg
+│   ├── library.jpeg
 │   ├── personality.jpeg
 │   ├── projects.jpeg
 │   └── skills.jpeg
@@ -38,7 +43,7 @@ The quest tracker saves progress in the visitor's browser using `localStorage`. 
 
 ## Run locally
 
-Open `index.html` in a browser. No build step or package installation is required.
+Open `index.html` in a browser. No build step or package installation is required. The first visit choice is remembered in local storage.
 
 ## Publish with GitHub Pages
 

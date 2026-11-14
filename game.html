@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff8fc">
+    <meta name="description" content="Turkan Baghirzade's portfolio: computer science, creative projects, and a little stardust.">
+    <title>Turkan Baghirzade | Starlight Portfolio</title>
+    <link rel="icon" href="assets/fairy-avatar.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=10">
+    <script src="js/data.js?v=4" defer></script>
+    <script src="script.js" defer></script>
+    <script src="home-scene.js?v=4" defer></script>
+  </head>
+  <body data-stage="home" data-next="about.html">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Turkan Baghirzade, home">
+        <span class="wordmark-star" aria-hidden="true">âœ¦</span>
+        <span>Turkan<span class="wordmark-dot">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="game.html" aria-current="page">Home</a>
+        <a href="about.html">My journey</a>
+        <a href="projects.html">Projects</a>
+      </nav>
+      <a class="github-link" href="#" data-href="footer.githubUrl" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.67-3.75-1.32-3.75-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 2.42 4.19 1.73.1-.72.39-1.21.7-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.29-2.61 5.24-5.1 5.51.4.35.75 1.03.75 2.08v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg> GitHub
+      </a>
+      <a class="classic-link" href="index.html">Classic view</a>
+    </header>
+
+    <main id="main">
+      <section class="game-stage" aria-labelledby="stage-title">
+        <div class="game-hud">
+          <span class="world-badge">WORLD 01 <span aria-hidden="true">âœ¦</span></span>
+          <span class="hud-title" data-copy="home.gameTitle"></span>
+          <span class="hud-progress">HOME <span aria-hidden="true">â€¢</span> 01 / 05</span>
+        </div>
+        <div class="stage-copy">
+          <p class="stage-kicker" data-copy="home.kicker"></p>
+          <h1 id="stage-title" data-copy="home.title"></h1>
+          <p data-copy="home.intro"></p>
+          <a class="stage-link" href="about.html" data-game-link><span data-copy="home.gameLink"></span> <span aria-hidden="true">â†—</span></a>
+        </div>
+        <div class="fairy-player" data-player role="img" aria-label="Turkanâ€™s sparkly fairy character from her concept art">
+          <img src="assets/turkan-fairy.png" alt="">
+          <span class="player-name">TURKAN</span>
+        </div>
+        <div class="stage-controls" aria-label="Fairy movement controls">
+          <button type="button" class="move-button" data-move="left" aria-label="Move fairy left">â†</button>
+          <button type="button" class="move-button" data-move="right" aria-label="Move fairy right">â†’</button>
+        </div>
+        <p class="controls-hint" id="controls-hint">Move with â† â†’ or A / D Â· Move your pointer for magic</p>
+        <a class="edge-hint" href="about.html" data-game-link>Next world <span aria-hidden="true">â†’</span></a>
+        <p class="stage-live" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="wordmark footer-mark" href="index.html"><span class="wordmark-star" aria-hidden="true">âœ¦</span><span>Turkan<span class="wordmark-dot">.</span></span></a>
+        <p data-copy="footer.tagline"></p>
+        <a class="footer-github" href="#" data-href="footer.githubUrl" target="_blank" rel="noopener noreferrer">Find me on GitHub â†—</a>
+      </div>
+      <p class="copyright">Â© <span id="current-year">2026</span> <span data-copy="footer.copyright"></span></p>
+    </footer>
+  </body>
+</html>
+
